@@ -1,0 +1,49 @@
+/* Lessons.css */
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  .sidebar-container {
+    display: none; /* Hide sidebar on small screens */
+  }
+
+  .content-container {
+    width: 100%; /* Make content span full width */
+  }
+}
+
+/* Main content container */
+.content-container {
+  padding: 20px;
+}
+
+/* Video player container */
+.video-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Buttons container */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+/* Style for buttons */
+.button-margin {
+  margin-left: 10px !important;
+}
+
+/* Checkbox label style */
+.checkbox-label {
+  margin-left: 5px;
+}
+
+/* Additional styling for checkbox */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Add more styles here as needed */
